@@ -18,6 +18,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Add .env.local file
+add .env.local file to root location and give following values in it.
+GOOGLE_ID=
+GOOGLE_SECRET=
+NEXTAUTH_URL=
+NEXTAUTH_SECRET=
+OPENAI_API_KEY=
+FIREBASE_SERVICE_ACCOUNT_KEY=
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
