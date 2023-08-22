@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .infotext{
+        @apply p-4 bg-gray-700 rounded-lg max-w-[300px]
+    }
+
+    .chatRow{
+        @apply rounded-lg px-5 py-3  text-sm flex items-center 
+        justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer 
+        text-gray-300 transition-all duration-200 ease-out
+    }
+
+}       
+
+
+       /* Hide scrollbar for IE, Edge and Firefox */
+    
+      .hide-scrollbar::-webkit-scrollbar {
+        width: 5px; /* Set width of the scrollbar */
+      }
+      
+      .hide-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #434654; /* Color of the scrollbar thumb */
+        border-radius: 10px; /* Round the thumb */
+      }
+      
+      .hide-scrollbar::-webkit-scrollbar-thumb:hover {
+        background-color: #787878; /* Color when hovered */
+      }
+
+
+      .container {
+        position: relative;
+        padding: 20px;
+      }
+      
+      .faded-background {
+        position: absolute;
+        width: 100%;
+       bottom: 20px;
+
+        background: linear-gradient(to top, rgb(43, 46, 54), transparent);
+        z-index: 10;
+      }

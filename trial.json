@@ -1,0 +1,24 @@
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sat, 19 Aug 2023 16:04:09 GMT',
+    'content-type': 'application/json',
+    'content-length': '115',
+    connection: 'close',
+    'x-ratelimit-requests-limit': '1000',
+    'x-ratelimit-requests-remaining': '969',
+    'x-ratelimit-requests-reset': '2652705',
+    'x-ratelimit-rapid-free-plans-hard-limit-limit': '500000',
+    'x-ratelimit-rapid-free-plans-hard-limit-remaining': '499969',
+    'x-ratelimit-rapid-free-plans-hard-limit-reset': '2652705',
+    server: 'RapidAPI-1.2.8',
+    'x-rapidapi-version': '1.2.8',
+    'x-rapidapi-region': 'AWS - ap-southeast-1'
+  },
+  config: {
+  data: {
+    Falcon: 'The colors of the rainbow are red, orange, yellow, green, blue, indigo, and violet.',
+    web_access: false
+  }
+}
