@@ -20,12 +20,12 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Add .env.local file
 add .env.local file to root location and give following values in it.
-GOOGLE_ID= ,
-GOOGLE_SECRET= ,
-NEXTAUTH_URL= ,
-NEXTAUTH_SECRET= ,
-OPENAI_API_KEY= ,
-FIREBASE_SERVICE_ACCOUNT_KEY= ,
+GOOGLE_ID= .
+GOOGLE_SECRET= .
+NEXTAUTH_URL= .
+NEXTAUTH_SECRET= .
+OPENAI_API_KEY= .
+FIREBASE_SERVICE_ACCOUNT_KEY= .
 
 ## Learn More
 
